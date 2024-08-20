@@ -30,19 +30,19 @@ const Footer = () => {
             {/* Navigation Links */}
             <Box className="footer-link">
                 <ul>
-                    <li > <Link to="/portfolio" >
+                    <li > <Link to="/-/portfolio" >
                         Portfolio
                     </Link> </li>
-                    <li > <Link to="/weddingwebsite">
+                    <li > <Link to="/-/weddingwebsite">
                         Wedding Website
                     </Link> </li>
-                    <li ><Link to="/birthdaywebsite">
+                    <li ><Link to="/-/birthdaywebsite">
                         Birthday Website
                     </Link> </li>
-                    <li ><Link to="/birthdaytemplate">
+                    <li ><Link to="/-/birthdaytemplate">
                         Birthday Template
                     </Link> </li>
-                    <li ><Link to="/weddingtemplate">
+                    <li ><Link to="/-/weddingtemplate">
                         Wedding Template
                     </Link></li>
                 </ul>

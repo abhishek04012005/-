@@ -18,28 +18,28 @@ const NotFound = () => (
 const router = createBrowserRouter(
   [
     {
-      path: '/',
+      path: '/-/',
       element: <Portfolio />, 
     },
     {
-      path: '/portfolio',
+      path: '/-/portfolio',
       element: <Portfolio />, 
     },
     {
-      path: '/weddingwebsite',
+      path: '/-/weddingwebsite',
       element: <WeddingWebsite/>,
     },
     // -------------------------------------
     {
-      path: '/birthdaywebsite',
+      path: '/-/birthdaywebsite',
       element: <BirthdayWebsite/>,
     },
     {
-      path: '/birthdaytemplate',
+      path: '/-/birthdaytemplate',
       element: <BirthdayTemplate />,
     },
     {
-      path: '/weddingtemplate',
+      path: '/-/weddingtemplate',
       element: <WeddingTemplate/>,
     },
 
