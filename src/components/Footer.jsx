@@ -53,30 +53,32 @@ const Footer = () => {
             {/* Social Media Icons */}
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
                 <IconButton color="inherit">
+                    <a href="https://youtube.com/@theabhishekchoudhary0401?" target="_blank">
+                        <YouTube />
+                    </a>
+                </IconButton>
+                <IconButton color="inherit">
                     <a href="https://facebook.com/" target="_blank">
                         <Facebook />
                     </a>
                 </IconButton>
+              
                 <IconButton color="inherit">
-                    <a href="https://twitter.com/" target="_blank">
-                        <GitHub />
-                    </a>
-                </IconButton>
-                <IconButton color="inherit">
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a href="https://www.instagram.com/theabhishekchoudhary2006" target="_blank">
                         <Instagram />
                     </a>
                 </IconButton>
                 <IconButton color="inherit">
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/abhishek-choudhary-80b753232/" target="_blank">
                         <LinkedIn />
                     </a>
                 </IconButton>
                 <IconButton color="inherit">
-                    <a href="https://www.youtube.com/" target="_blank">
-                        <YouTube />
+                    <a href="https://github.com/theabhishekchoudhary0401" target="_blank">
+                        <GitHub />
                     </a>
                 </IconButton>
+
             </Box>
 
 

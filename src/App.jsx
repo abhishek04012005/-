@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider, Link } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Link, Routes, Route } from 'react-router-dom';
 
 import Portfolio from './Pages/Portfolio';
 import WeddingWebsite from './Pages/WeddingWebsite';
@@ -19,20 +19,20 @@ const router = createBrowserRouter(
   [
     {
       path: '/-/',
-      element: <Portfolio />, 
+      element: <Portfolio />,
     },
     {
       path: '/-/portfolio',
-      element: <Portfolio />, 
+      element: <Portfolio />,
     },
     {
       path: '/-/weddingwebsite',
-      element: <WeddingWebsite/>,
+      element: <WeddingWebsite />,
     },
     // -------------------------------------
     {
       path: '/-/birthdaywebsite',
-      element: <BirthdayWebsite/>,
+      element: <BirthdayWebsite />,
     },
     {
       path: '/-/birthdaytemplate',
@@ -40,7 +40,7 @@ const router = createBrowserRouter(
     },
     {
       path: '/-/weddingtemplate',
-      element: <WeddingTemplate/>,
+      element: <WeddingTemplate />,
     },
 
     // -----------------------------------------
@@ -55,6 +55,13 @@ const App = () => {
   return (
     <div className='relative z-0 bg-primary'>
       <RouterProvider router={router} />
+
+
+      {/* <Routes>
+        <Route path="/-/" element={<Portfolio />} />
+        <Route path="/-/portfolio" element={<Portfolio />} />
+        <Route path="/-/weddingtemplate" element={<NotFound />} />
+      </Routes> */}
     </div>
   );
 }
