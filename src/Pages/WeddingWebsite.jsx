@@ -1,18 +1,3 @@
-// import React from 'react'
-// import Footer from '../components/Footer'
-
-// const WeddingWebsite = () => {
-//   return (
-//     <div>WeddingWebsite
-
-//       <Footer/>
-//     </div>
-//   )
-// }
-
-// export default WeddingWebsite
-
-
 import React, { useState } from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
@@ -87,13 +72,10 @@ const ProjectCard = ({
 };
 
 const WeddingWebsite = () => {
-  // ---------------------------
-  // const [toggle, setToggle] = useState("web development");
-  // ----------------------------
+
   return (
     <>
       <motion.div variants={textVariant()}>
-        {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
         <h2 className={`${styles.sectionHeadText}`}>Wedding Websites</h2>
       </motion.div>
 
@@ -102,30 +84,17 @@ const WeddingWebsite = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Wedding Websites showcases our expertise in creating stunning, personalized experiences for your special day. Each site is thoughtfully designed with love and care, featuring unique themes, easy-to-navigate layouts, and seamless integration with essential tools. Explore our examples to see how we bring your love story to life online, ensuring every detail is perfect for your big day.
         </motion.p>
       </div>
 
-      {/* ---------------------------------------- */}
-      {/* <ToggleButtonGroup>
-        <ToggleButton   active={toggle === "web development"}
-          onClick={() => setToggle("web development")}
-          className={styles.sectionHeadText}>
-            Web Developmen
-          </ToggleButton>
-      </ToggleButtonGroup> */}
-      {/* -------------------------------------------- */}
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

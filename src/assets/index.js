@@ -36,7 +36,7 @@ import client3 from "./client/client3.png";
 import client4 from "./client/client4.png";
 
 import wedding from "./projectimage/wedding.png";
-// import carrent from "./projectimage/carrent.png";
+import dance from "./projectimage/dance.png";
 import jobit from "./projectimage/jobit.png";
 import tripguide from "./projectimage/tripguide.png";
 
@@ -84,5 +84,6 @@ export {
 
   wedding,
   abhishek,
+  dance,
 
 };

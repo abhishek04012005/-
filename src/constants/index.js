@@ -32,6 +32,7 @@ import {
   client3,
   client4,
   wedding,
+  dance,
 } from "../assets";
 
 
@@ -332,9 +333,9 @@ const projects = [
     source_code_link: "https://hemlata-ajay.github.io/wedding/",
   },
   {
-    name: "Job IT",
+    name: "Dance Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web app for dance enthusiasts to contact us. Perfect for beginners and pros alike to connect with the dance community and enhance their skills.",
     tags: [
       {
         name: "react",
@@ -349,8 +350,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: dance,
+    source_code_link: "https://0001abhishek.github.io/tetrapods/",
   },
   {
     name: "Trip Guide",
