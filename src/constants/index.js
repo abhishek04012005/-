@@ -19,21 +19,24 @@ import {
   inkscape,
 
 
-  meta,
   ditvif,
-  starbucks,
-  shopify,
   ankdata,
-  // carrent,
-  jobit,
-  tripguide,
   client1,
   client2,
   client3,
   client4,
+
   wedding,
   dance,
-} from "../assets";
+  headphone3d,
+
+
+  github,
+  youtube,
+} from "../assets/index";
+
+
+
 
 
 
@@ -330,6 +333,7 @@ const projects = [
       },
     ],
     image: wedding,
+    logoImage: github,
     source_code_link: "https://hemlata-ajay.github.io/wedding/",
   },
   {
@@ -351,28 +355,30 @@ const projects = [
       },
     ],
     image: dance,
+    logoImage: github,
     source_code_link: "https://0001abhishek.github.io/tetrapods/",
   },
   {
-    name: "Trip Guide",
+    name: "3D Model Animation",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A dynamic 3D animation highlights the sleek design and functionality of high-quality headphones, ending with a close-up of the brand logo.",
     tags: [
       {
-        name: "nextjs",
+        name: "Blender 3D Model",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Animation",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Graphic",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: headphone3d,
+    logoImage: youtube,
+    source_code_link: "https://github.com/theabhishekchoudhary0401/3d_model_headphone/blob/main/0001-0150.mp4",
   },
 ];
 

@@ -8,6 +8,7 @@ import web from "./work_skill/web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import youtube from "./tech/youtube.png"
 
 import html from "./tech/html.png";
 import css from "./tech/css.png";
@@ -37,8 +38,8 @@ import client4 from "./client/client4.png";
 
 import wedding from "./projectimage/wedding.png";
 import dance from "./projectimage/dance.png";
-import jobit from "./projectimage/jobit.png";
-import tripguide from "./projectimage/tripguide.png";
+import headphone3d from "./projectimage/headphone3d.png"
+
 
 import abhishek from "./my1.jpg";
 
@@ -73,9 +74,7 @@ export {
   shopify,
   starbucks,
   ankdata,
-  // carrent,
-  jobit,
-  tripguide,
+
 
   client1,
   client2,
@@ -85,5 +84,8 @@ export {
   wedding,
   abhishek,
   dance,
+  headphone3d,
 
+
+  youtube
 };
