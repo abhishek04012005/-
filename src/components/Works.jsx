@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { useEffect, useState } from "react";
 
 
 // --------------------------------
@@ -19,9 +20,11 @@ const ProjectCard = ({
   image,
   logoImage,
   source_code_link,
+  isMobile
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={isMobile ? fadeIn(1) : fadeIn("right", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -75,6 +78,30 @@ const Works = () => {
   // ---------------------------
   // const [toggle, setToggle] = useState("web development");
   // ----------------------------
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Add a listener for changes to the screen size
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+
+    // Set the initial value of the `isMobile` state variable
+    setIsMobile(mediaQuery.matches);
+
+    // Define a callback function to handle changes to the media query
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    // Add the callback function as a listener for changes to the media query
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    // Remove the listener when the component is unmounted
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, [])
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -107,7 +134,7 @@ const Works = () => {
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <ProjectCard key={`project-${index}`} index={index} {...project} isMobile={isMobile}/>
         ))}
       </div>
     </>
