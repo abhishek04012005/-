@@ -84,7 +84,9 @@ const WeddingWebsite = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Wedding Websites showcases our expertise in creating stunning, personalized experiences for your special day. Each site is thoughtfully designed with love and care, featuring unique themes, easy-to-navigate layouts, and seamless integration with essential tools. Explore our examples to see how we bring your love story to life online, ensuring every detail is perfect for your big day.
+         Our wedding invitations showcase our expertise in creating stunning, personalized designs for your special day. Each card is thoughtfully crafted with love and care, featuring unique themes, elegant layouts. Explore our collection to see how we bring your love story to life, ensuring every detail is perfect for your big day.
+
+
         </motion.p>
       </div>
 

@@ -26,20 +26,20 @@ const router = createBrowserRouter(
       element: <Portfolio />,
     },
     {
-      path: '/-/weddingwebsite',
+      path: '/-/wedding-website',
       element: <WeddingWebsite />,
     },
     // -------------------------------------
     {
-      path: '/-/birthdaywebsite',
+      path: '/-/birthday-website',
       element: <BirthdayWebsite />,
     },
     {
-      path: '/-/birthdaytemplate',
+      path: '/-/birthday-invitation',
       element: <BirthdayTemplate />,
     },
     {
-      path: '/-/weddingtemplate',
+      path: '/-/wedding-invitation',
       element: <WeddingTemplate />,
     },
 

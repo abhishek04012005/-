@@ -33,17 +33,17 @@ const Footer = () => {
                     <li > <Link to="/-/portfolio" >
                         Portfolio
                     </Link> </li>
-                    <li > <Link to="/-/weddingwebsite">
+                    <li > <Link to="/-/wedding-website">
                         Wedding Website
                     </Link> </li>
-                    <li ><Link to="/-/birthdaywebsite">
+                    <li ><Link to="/-/birthday-website">
                         Birthday Website
                     </Link> </li>
-                    <li ><Link to="/-/birthdaytemplate">
-                        Birthday Template
+                    <li ><Link to="/-/birthday-invitation">
+                        Birthday Invitation
                     </Link> </li>
-                    <li ><Link to="/-/weddingtemplate">
-                        Wedding Template
+                    <li ><Link to="/-/wedding-invitation">
+                        Wedding Invitation
                     </Link></li>
                 </ul>
             </Box>
