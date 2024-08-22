@@ -64,7 +64,7 @@ const Footer = () => {
                 </IconButton>
               
                 <IconButton color="inherit">
-                    <a href="https://www.instagram.com/theabhishekchoudhary2006" target="_blank">
+                    <a href="https://www.instagram.com/theabhishekchoudhary0401" target="_blank">
                         <Instagram />
                     </a>
                 </IconButton>
