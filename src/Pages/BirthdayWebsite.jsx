@@ -76,7 +76,7 @@ const WeddingWebsite = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText}`}>Wedding Websites</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Birthday Website Design</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -90,8 +90,8 @@ const WeddingWebsite = () => {
 
 
       <div className='mt-20 flex flex-wrap gap-7'>
-        {birthdayWebsite.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        {birthdayWebsite.map((service, index) => (
+          <ProjectCard key={`service-${index}`} index={index} {...service} />
         ))}
       </div>
       <Footer />

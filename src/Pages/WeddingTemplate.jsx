@@ -76,7 +76,7 @@ const WeddingWebsite = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText}`}>Wedding Websites</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Wedding Template Design</h2>
       </motion.div>
 
       <div className='w-full flex'>
