@@ -35,6 +35,7 @@ import {
     BirtdayTemplate1,
 
     github,
+    Instagram,
     youtube,
 } from "../assets/index";
 
@@ -201,7 +202,7 @@ const birthdayTemplate = [
             },
         ],
         image: BirtdayTemplate1,
-        logoImage: github,
+        logoImage: Instagram,
         source_code_link: "",
     },
     // {
@@ -270,7 +271,7 @@ const weddingTemplate = [
             },
         ],
         image: WebsiteTemplate1,
-        logoImage: github,
+        logoImage: Instagram,
         source_code_link: "/",
     },
     // {

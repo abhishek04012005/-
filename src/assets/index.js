@@ -46,6 +46,7 @@ import BirtdayTemplate1 from "./serviceImage/birthdayTemplate1.jpeg";
 
 
 import abhishek from "./my1.jpg";
+import Instagram from "./tech/instagram.png";
 
 export {
   logo,
@@ -94,5 +95,6 @@ export {
   BirthdayWebsite1,
   BirtdayTemplate1,
 
-  youtube
+  youtube,
+  Instagram,
 };

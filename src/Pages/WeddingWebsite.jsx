@@ -19,6 +19,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  logoImage
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -43,7 +44,7 @@ const ProjectCard = ({
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src={github}
+                src={logoImage}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
