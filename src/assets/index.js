@@ -38,9 +38,10 @@ import client4 from "./client/client4.png";
 
 import wedding from "./projectimage/wedding.png";
 import dance from "./projectimage/dance.png";
-import headphone3d from "./projectimage/headphone3d.png"
+import headphone3d from "./projectimage/headphone3d.png";
 
-import WebsiteTemplate1 from "./serviceImage/weddingDesign1.png"
+import WebsiteTemplate1 from "./serviceImage/weddingDesign1.png";
+import BirthdayWebsite1 from "./serviceImage/birthdayWebsite1.png";
 
 
 import abhishek from "./my1.jpg";
@@ -89,6 +90,7 @@ export {
   headphone3d,
 
   WebsiteTemplate1,
+  BirthdayWebsite1,
 
   youtube
 };

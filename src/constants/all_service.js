@@ -31,6 +31,7 @@ import {
     headphone3d,
   
     WebsiteTemplate1,
+    BirthdayWebsite1,
   
     github,
     youtube,
@@ -114,7 +115,7 @@ import {
     {
       name: "Birthday Website",
       description:
-        "A seamless platform for creating and managing wedding invitations, RSVPs, and event details, ensuring a beautifully organized and unforgettable celebration.",
+        "A seamless platform for creating and managing birthday invitations, RSVPs, and event details, ensuring a perfectly organized and memorable celebration.",
       tags: [
         {
           name: "HTML",
@@ -129,7 +130,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: wedding,
+      image: BirthdayWebsite1,
       logoImage: github,
       source_code_link: "https://abhishek04012005.github.io/birthday/",
     },
@@ -200,7 +201,7 @@ import {
       ],
       image: wedding,
       logoImage: github,
-      source_code_link: "https://hemlata-ajay.github.io/wedding/",
+      source_code_link: "",
     },
     {
       name: "Marriage Website",
@@ -222,7 +223,7 @@ import {
       ],
       image: dance,
       logoImage: github,
-      source_code_link: "https://0001abhishek.github.io/tetrapods/",
+      source_code_link: "",
     },
     {
       name: "3D marriage Animation",
@@ -244,7 +245,7 @@ import {
       ],
       image: headphone3d,
       logoImage: youtube,
-      source_code_link: "https://github.com/theabhishekchoudhary0401/3d_model_headphone/blob/main/0001-0150.mp4",
+      source_code_link: "",
     },
   ];
 
@@ -269,7 +270,7 @@ import {
       ],
       image: WebsiteTemplate1,
       logoImage: github,
-      source_code_link: "https://hemlata-ajay.github.io/wedding/",
+      source_code_link: "/",
     },
     // {
     //   name: "Marriage Website",
