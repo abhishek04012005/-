@@ -9,6 +9,8 @@ import { birthdayTemplate } from "../constants/all_service";
 import { fadeIn, textVariant } from "../utils/motion";
 import Footer from "../components/Footer";
 
+
+
 // --------------------------------
 // import { ToggleButton, ToggleButtonGroup } from "react-bootstrap";
 
@@ -93,6 +95,11 @@ const WeddingWebsite = () => {
           <ProjectCard key={`service-${index}`} index={index} {...service} />
         ))}
       </div>
+
+     
+
+
+
       <Footer />
     </>
   );

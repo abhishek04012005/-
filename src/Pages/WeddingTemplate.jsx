@@ -8,6 +8,8 @@ import { SectionWrapper } from "../hoc";
 import { weddingTemplate } from "../constants/all_service";
 import { fadeIn, textVariant } from "../utils/motion";
 import Footer from "../components/Footer";
+import "../App.css"
+import YoutubeEmbed from "../components/YoutubeEmbed";
 
 // --------------------------------
 // import { ToggleButton, ToggleButtonGroup } from "react-bootstrap";
@@ -96,6 +98,12 @@ const WeddingWebsite = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+
+
+      <div className="youtubeEm">
+      <h1>Template Video</h1>
+      <YoutubeEmbed embedId="xRZjyfOGBAA" />
+    </div>
       <Footer />
     </>
   );

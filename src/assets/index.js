@@ -42,6 +42,7 @@ import headphone3d from "./projectimage/headphone3d.png";
 
 import WebsiteTemplate1 from "./serviceImage/weddingDesign1.png";
 import BirthdayWebsite1 from "./serviceImage/birthdayWebsite1.png";
+import BirtdayTemplate1 from "./serviceImage/birthdayTemplate1.jpeg";
 
 
 import abhishek from "./my1.jpg";
@@ -91,6 +92,7 @@ export {
 
   WebsiteTemplate1,
   BirthdayWebsite1,
+  BirtdayTemplate1,
 
   youtube
 };
