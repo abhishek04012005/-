@@ -40,6 +40,8 @@ import wedding from "./projectimage/wedding.png";
 import dance from "./projectimage/dance.png";
 import headphone3d from "./projectimage/headphone3d.png"
 
+import WebsiteTemplate1 from "./serviceImage/weddingDesign1.png"
+
 
 import abhishek from "./my1.jpg";
 
@@ -86,6 +88,7 @@ export {
   dance,
   headphone3d,
 
+  WebsiteTemplate1,
 
   youtube
 };

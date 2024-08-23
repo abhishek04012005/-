@@ -297,7 +297,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "I never thought a video could be so captivating, but Abhishek's editing skills completely changed my mind!",
     name: "Lisa Wang",
     designation: "CTO Of",
     company: "456 Enterprises",
@@ -305,7 +305,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Thanks for stunning graphic design, our website now attracts more visitors than ever before!",
     name: "Lisa Wang",
     designation: "CTO Of",
     company: "456 Enterprises",
