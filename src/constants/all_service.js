@@ -46,7 +46,7 @@ import {
 
 const weddingWebsiteBride =
 {
-  name: "Wedding Website Bride",
+  name: "Website for Bride",
   description:
     "A seamless platform for creating and managing wedding invitations, RSVPs, and event details, ensuring a beautifully organized and unforgettable celebration.",
   tags: [
@@ -82,7 +82,7 @@ const weddingWebsiteBride =
 
 const weddingWebsiteGroom =
 {
-  name: "Wedding Website Groom",
+  name: "Website for Groom",
   description:
     "A seamless platform for creating and managing wedding invitations, RSVPs, and event details, ensuring a beautifully organized and unforgettable celebration.",
   tags: [

@@ -19,7 +19,7 @@ import Stack from '@mui/material/Stack';
 
 const Footer = () => {
 
-    // const [menu, setMenu] = useState("portfolio");
+  
 
     return (
         <Box
@@ -31,18 +31,9 @@ const Footer = () => {
                 paddingTop: 3,
             }}
         >
-
-
-
-
-
-
-
-
-            {/* Navigation Links */}
             <Box className="footer-link">
                 <ul>
-                    <li > <Link to="/-/portfolio" >
+                    <li > <Link to="/-/" >
                         Portfolio
                     </Link> </li>
                     <li > <Link to="/-/wedding-website">
@@ -60,23 +51,6 @@ const Footer = () => {
                 </ul>
             </Box>
 
-
-            {/* <Box className="button">
-              
-
-     
-                <Stack direction="row" spacing={4}>
-                    <Button variant="secondary" endIcon={<WhatsAppIcon/>}>
-                      <a href="https://wa.me/919264248504?text=Hello!%20I%20would%20like%20to%20chat%20with%20you." target='_blank'>Whatsapp me</a>
-                    </Button>
-                    <Button variant="secondary" endIcon={<AlternateEmailIcon/>}>
-                        <a href="" target='_blank'>Email Me</a>
-                    </Button>
-                </Stack>
-                
-            </Box> */}
-
-            {/* Social Media Icons */}
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <IconButton color="inherit">
                     <a href="https://wa.me/919264248504?text=Hello%20Abhishek,%0AI'm%20impressed%20with%20your%20profile.%0AI%20wish%20to%20connect%20with%20you." target="_blank">
