@@ -33,19 +33,19 @@ const Footer = () => {
         >
             <Box className="footer-link">
                 <ul>
-                    <li > <Link to="/-/" >
+                    <li > <Link to="/" >
                         Portfolio
                     </Link> </li>
-                    <li > <Link to="/-/wedding-website">
+                    <li > <Link to="/wedding-website">
                         Wedding Website
                     </Link> </li>
-                    {/* <li ><Link to="/-/birthday-website">
+                    {/* <li ><Link to="/birthday-website">
                         Birthday Website
                     </Link> </li>
-                    <li ><Link to="/-/birthday-invitation">
+                    <li ><Link to="/birthday-invitation">
                         Birthday Invitation
                     </Link> </li> */}
-                    <li ><Link to="/-/wedding-invitation">
+                    <li ><Link to="/wedding-invitation">
                         Wedding Invitation
                     </Link></li>
                 </ul>

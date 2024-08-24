@@ -29,7 +29,7 @@ const Navbar = () => {
   const location = useLocation();
   const { pathname } = location;
 
-  const isHomePage = pathname === '/-/';
+  const isHomePage = pathname === '/';
 
 
 
