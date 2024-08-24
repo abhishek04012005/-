@@ -63,7 +63,7 @@ const Footer = () => {
                     </a>
                 </IconButton>
                 <IconButton color="inherit">
-                    <a href="https://youtube.com/@theabhishekchoudhary0401?" target="_blank">
+                    <a href="mailto:theabhishekchoudhary0401@gmail.com?subject=Hello%20Abhishek,%20I'm%20impressed%20with%20your%20profile.%20I%20wish%20to%20connect%20with%20you." target="_blank">
                         <YouTube />
                     </a>
                 </IconButton>

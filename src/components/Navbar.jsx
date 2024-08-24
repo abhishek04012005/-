@@ -4,6 +4,8 @@ import { Link, useLocation } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+// import { IconButton } from "@mui/material";
+// import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -58,18 +60,32 @@ const Navbar = () => {
           </p>
         </Link>
 
-        {isHomePage ? <ul className='list-none hidden sm:flex flex-row gap-10'>
-          {navLinks.map((nav) => (
-            <li
-              key={nav.id}
-              className={`${active === nav.title ? "text-white" : "text-secondary"
-                } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
-            >
-              <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
-          ))}
-        </ul> : []}
+        {isHomePage ?
+          <ul className='list-none hidden sm:flex flex-row gap-10'>
+            {navLinks.map((nav) => (
+              <li
+                key={nav.id}
+                className={`${active === nav.title ? "text-white" : "text-secondary"
+                  } hover:text-white text-[18px] font-medium cursor-pointer`}
+                onClick={() => setActive(nav.title)}
+              >
+                <a href={`#${nav.id}`}>{nav.title}</a>
+
+              </li>
+
+
+
+
+            ))}
+
+            {/* <li>
+              <IconButton color="inherit" style="">
+                <a href="https://wa.me/919264248504?text=Hello%20Abhishek,%0AI'm%20impressed%20with%20your%20profile.%0AI%20wish%20to%20connect%20with%20you." target="_blank">
+                  <WhatsAppIcon />
+                </a>
+              </IconButton>
+            </li> */}
+          </ul> : []}
 
 
 
