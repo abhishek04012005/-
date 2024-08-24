@@ -1,16 +1,11 @@
 import React, { useState } from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { weddingWebsite } from "../constants/all_service";
+import { weddingWebsites } from "../constants/all_service";
 import { fadeIn, textVariant } from "../utils/motion";
-import Footer from "../components/Footer";
 
-// --------------------------------
-// import { ToggleButton, ToggleButtonGroup } from "react-bootstrap";
 
 const ProjectCard = ({
   index,
@@ -65,9 +60,14 @@ const ProjectCard = ({
             >
               #{tag.name}
             </p>
+            
+
+            
           ))}
         </div>
+
       </Tilt>
+        
     </motion.div>
   );
 };
@@ -91,11 +91,19 @@ const WeddingWebsite = () => {
 
 
       <div className='mt-20 flex flex-wrap gap-7'>
-        {weddingWebsite.map((project, index) => (
+        {weddingWebsites.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
+
+          
+
+          
         ))}
+
+        
       </div>
-      <Footer />
+
+      
+   
     </>
   );
 };

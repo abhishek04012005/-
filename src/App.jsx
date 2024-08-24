@@ -1,10 +1,11 @@
 import { createBrowserRouter, RouterProvider, Link, Routes, Route } from 'react-router-dom';
 
 import Portfolio from './Pages/Portfolio';
-import WeddingWebsite from './Pages/WeddingWebsite';
-import BirthdayWebsite from './Pages/BirthdayWebsite';
-import BirthdayTemplate from './Pages/BirthdayTemplate';
-import WeddingTemplate from './Pages/WeddingTemplate';
+import WebsiteWeddingPage from './Pages/RouterPages/WebsiteWeddingPage';
+import BirthdayTemplatePage from './Pages/RouterPages/BirthdayTemplatePage';
+import BirthdayWebsitePage from './Pages/RouterPages/BirthdayWebsitePage';
+import WeddingTemplatePage from './Pages/RouterPages/WeddingTemplatePage';
+
 
 // Custom 404 Page
 const NotFound = () => (
@@ -27,20 +28,20 @@ const router = createBrowserRouter(
     },
     {
       path: '/-/wedding-website',
-      element: <WeddingWebsite />,
+      element: <WebsiteWeddingPage  />,
     },
     // -------------------------------------
     {
       path: '/-/birthday-website',
-      element: <BirthdayWebsite />,
+      element: <BirthdayWebsitePage />,
     },
     {
       path: '/-/birthday-invitation',
-      element: <BirthdayTemplate />,
+      element: <BirthdayTemplatePage />,
     },
     {
       path: '/-/wedding-invitation',
-      element: <WeddingTemplate />,
+      element: <WeddingTemplatePage />,
     },
 
     // -----------------------------------------
@@ -55,13 +56,6 @@ const App = () => {
   return (
     <div className='relative z-0 bg-primary'>
       <RouterProvider basename="/-" router={router} />
-
-
-      {/* <Routes>
-        <Route path="/-/" element={<Portfolio />} />
-        <Route path="/-/portfolio" element={<Portfolio />} />
-        <Route path="/-/weddingtemplate" element={<NotFound />} />
-      </Routes> */}
     </div>
   );
 }

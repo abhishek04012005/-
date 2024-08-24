@@ -7,10 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { birthdayWebsite } from "../constants/all_service";
 import { fadeIn, textVariant } from "../utils/motion";
-import Footer from "../components/Footer";
 
-// --------------------------------
-// import { ToggleButton, ToggleButtonGroup } from "react-bootstrap";
 
 const ProjectCard = ({
   index,
@@ -95,7 +92,7 @@ const WeddingWebsite = () => {
           <ProjectCard key={`service-${index}`} index={index} {...service} />
         ))}
       </div>
-      <Footer />
+
     </>
   );
 };

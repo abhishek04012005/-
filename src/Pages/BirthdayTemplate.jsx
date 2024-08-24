@@ -7,7 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { birthdayTemplate } from "../constants/all_service";
 import { fadeIn, textVariant } from "../utils/motion";
-import Footer from "../components/Footer";
+
 
 
 
@@ -101,7 +101,7 @@ const WeddingWebsite = () => {
 
 
 
-      <Footer />
+    
     </>
   );
 };

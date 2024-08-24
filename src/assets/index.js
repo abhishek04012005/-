@@ -35,14 +35,23 @@ import client1 from "./client/client1.png";
 import client2 from "./client/client2.png";
 import client3 from "./client/client3.png";
 import client4 from "./client/client4.png";
+import client5 from "./client/client5.png";
+import client6 from "./client/client6.png";
 
 import wedding from "./projectimage/wedding.png";
-import dance from "./projectimage/dance.png";
 import headphone3d from "./projectimage/headphone3d.png";
+import Donut from "./projectimage/donut.png";
+import WebsiteAccess from "./tech/website.png";
+
+
+import weddingWebBride from "./serviceImage/weddingBrideWeb.png"
 
 import WebsiteTemplate1 from "./serviceImage/weddingDesign1.png";
 import BirthdayWebsite1 from "./serviceImage/birthdayWebsite1.png";
 import BirtdayTemplate1 from "./serviceImage/birthdayTemplate1.jpeg";
+import WeddingTemplateHBride from "./serviceImage/weddingDesignHBride.png";
+import weddingVideoGroom1 from "./serviceImage/WeddingVideoGroom1.png";
+import weddingVideoBride1 from "./serviceImage/WeddingVideoBride1.png";
 
 
 import abhishek from "./my1.jpg";
@@ -85,16 +94,23 @@ export {
   client2,
   client3,
   client4,
+  client5,
+  client6,
 
   wedding,
   abhishek,
-  dance,
   headphone3d,
+  Donut,
 
   WebsiteTemplate1,
   BirthdayWebsite1,
   BirtdayTemplate1,
+  WeddingTemplateHBride,
+  weddingVideoGroom1,
+  weddingVideoBride1,
+  weddingWebBride,
 
   youtube,
   Instagram,
+  WebsiteAccess,
 };

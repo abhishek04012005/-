@@ -18,22 +18,22 @@ import Footer from '../components/Footer';
 
 const Portfolio = () => {
     return (
-            <div className='relative z-0 bg-primary'>
-                <Navbar />
-                <div className='relative z-0'>
-                    <Hero />
-                    <StarsCanvas />
-                </div>
-                <About />
-                <Experience />
-                <Works />
-                <Tech />
-                <Feedbacks />
-                <div className='relative z-0'>
-                    <Contact />
-                </div>
-                <Footer/>
+        <div className='relative z-0 bg-primary'>
+            <Navbar />
+            <div className='relative z-0'>
+                <Hero />
+                <StarsCanvas />
             </div>
+            <About />
+            <Experience />
+            <Works />
+            <Tech />
+            <Feedbacks />
+            <div className='relative z-0'>
+                <Contact />
+            </div>
+            <Footer />
+        </div>
     )
 }
 

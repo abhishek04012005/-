@@ -3,9 +3,18 @@ import React from 'react';
 // import { useState } from 'react'
 import { Box, Button, IconButton } from '@mui/material';
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, LinkedIn, YouTube, GitHub } from '@mui/icons-material';
+import { Facebook, Instagram, LinkedIn, YouTube, GitHub} from '@mui/icons-material';
 import '../App.css';
 import { SectionWrapper } from '../hoc';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+
+import EmailIcon from '@mui/icons-material/Email';
+
+
+
+
+
+import Stack from '@mui/material/Stack';
 
 
 const Footer = () => {
@@ -22,6 +31,9 @@ const Footer = () => {
                 paddingTop: 3,
             }}
         >
+
+
+
 
 
 
@@ -49,9 +61,33 @@ const Footer = () => {
             </Box>
 
 
+            {/* <Box className="button">
+              
+
+     
+                <Stack direction="row" spacing={4}>
+                    <Button variant="secondary" endIcon={<WhatsAppIcon/>}>
+                      <a href="https://wa.me/919264248504?text=Hello!%20I%20would%20like%20to%20chat%20with%20you." target='_blank'>Whatsapp me</a>
+                    </Button>
+                    <Button variant="secondary" endIcon={<AlternateEmailIcon/>}>
+                        <a href="" target='_blank'>Email Me</a>
+                    </Button>
+                </Stack>
+                
+            </Box> */}
 
             {/* Social Media Icons */}
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
+            <IconButton color="inherit">
+                    <a href="https://wa.me/919264248504?text=Hello%20Abhishek,%0AI'm%20impressed%20with%20your%20profile.%0AI%20wish%20to%20connect%20with%20you." target="_blank">
+                        <WhatsAppIcon />
+                    </a>
+                </IconButton>
+                <IconButton color="inherit">
+                    <a href="mailto:theabhishekchoudhary0401@gmail.com" target="_blank">
+                    <EmailIcon/>
+                    </a>
+                </IconButton>
                 <IconButton color="inherit">
                     <a href="https://youtube.com/@theabhishekchoudhary0401?" target="_blank">
                         <YouTube />
@@ -62,7 +98,7 @@ const Footer = () => {
                         <Facebook />
                     </a>
                 </IconButton>
-              
+
                 <IconButton color="inherit">
                     <a href="https://www.instagram.com/theabhishekchoudhary0401" target="_blank">
                         <Instagram />
