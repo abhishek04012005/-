@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Tilt from "react-tilt";
-import { motion } from "framer-motion";
+
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { weddingWebsites } from "../constants/all_service";
-import { fadeIn, textVariant } from "../utils/motion";
+
 
 
 const ProjectCard = ({
@@ -142,9 +142,6 @@ const WeddingWebsite = () => {
       <div className='mt-5 flex flex-wrap gap-7'>
         {weddingWebsites.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
-
-
-
 
         ))}
 
