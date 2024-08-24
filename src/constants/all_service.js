@@ -44,6 +44,69 @@ import {
 } from "../assets/index";
 
 
+const websiteTagsGroom = [
+  {
+    name: "groom",
+    color: "red-text-gradient",
+  },
+  {
+    name: "wedding",
+    color: "blue-text-gradient",
+  },
+  {
+    name: "weddingday",
+    color: "green-text-gradient",
+  },
+  {
+    name: "justengaged",
+    color: "pink-text-gradient",
+  },
+  {
+    name: "weddinginvitation",
+    color: "white-text-gradient",
+  },
+  {
+    name: "weddingcelebration",
+    color: "yellow-text-gradient",
+  },
+  {
+    name: "weddingcelebration",
+    color: "skyblue-text-gradient",
+  },
+];
+
+const websiteTagsBride = [
+  {
+    name: "bride",
+    color: "red-text-gradient",
+  },
+  {
+    name: "wedding",
+    color: "blue-text-gradient",
+  },
+  {
+    name: "weddingday",
+    color: "green-text-gradient",
+  },
+  {
+    name: "justengaged",
+    color: "pink-text-gradient",
+  },
+  {
+    name: "weddinginvitation",
+    color: "white-text-gradient",
+  },
+  {
+    name: "weddingcelebration",
+    color: "yellow-text-gradient",
+  },
+  {
+    name: "weddingcelebration",
+    color: "skyblue-text-gradient",
+  },
+];
+
+
 const weddingWebsiteBride =
 {
   name: "Website for Bride",
@@ -73,6 +136,10 @@ const weddingWebsiteBride =
     {
       name: "weddingcelebration",
       color: "yellow-text-gradient",
+    },
+    {
+      name: "weddinginvitation",
+      color: "skyblue-text-gradient",
     },
   ],
   image: weddingWebBride,
@@ -109,6 +176,10 @@ const weddingWebsiteGroom =
     {
       name: "weddingcelebration",
       color: "yellow-text-gradient",
+    },
+    {
+      name: "weddinginvitation",
+      color: "skyblue-text-gradient",
     },
   ],
   image: wedding,
@@ -190,28 +261,7 @@ const weddingTemplateGroom = [
     name: `Wedding Invitation Video`,
     description:
       "Join us on a beautifully organized platform designed to create and manage your wedding invitations, RSVPs, and event details, ensuring an unforgettable celebration of love.",
-    tags: [
-      {
-        name: "wedding",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "weddingday",
-        color: "green-text-gradient",
-      },
-      {
-        name: "justengaged",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "weddinginvitation",
-        color: "white-text-gradient",
-      },
-      {
-        name: "weddingcelebration",
-        color: "yellow-text-gradient",
-      },
-    ],
+    tags: websiteTagsGroom,
     image: WebsiteTemplate1,
     logoImage: Instagram,
     source_code_link: "/",
@@ -220,28 +270,7 @@ const weddingTemplateGroom = [
     name: "Wedding Invitation eCard",
     description:
       "Join us on a beautifully organized platform designed to create and manage your wedding invitations, RSVPs, and event details, ensuring an unforgettable celebration of love.",
-    tags: [
-      {
-        name: "wedding",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "weddingday",
-        color: "green-text-gradient",
-      },
-      {
-        name: "justengaged",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "weddinginvitation",
-        color: "white-text-gradient",
-      },
-      {
-        name: "weddingcelebration",
-        color: "yellow-text-gradient",
-      },
-    ],
+    tags: websiteTagsGroom,
     image: weddingVideoGroom1,
     logoImage: youtube,
     source_code_link: "https://youtu.be/RqLDaXAoCQo",
@@ -250,28 +279,7 @@ const weddingTemplateGroom = [
     name: "Wedding Invitation eCard",
     description:
       "Join us on a beautifully organized platform designed to create and manage your wedding invitations, RSVPs, and event details, ensuring an unforgettable celebration of love.",
-    tags: [
-      {
-        name: "wedding",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "weddingday",
-        color: "green-text-gradient",
-      },
-      {
-        name: "justengaged",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "weddinginvitation",
-        color: "white-text-gradient",
-      },
-      {
-        name: "weddingcelebration",
-        color: "yellow-text-gradient",
-      },
-    ],
+    tags: websiteTagsGroom,
     image: WebsiteTemplate1,
     logoImage: Instagram,
     source_code_link: "/",
@@ -285,28 +293,7 @@ const weddingTemplateBride = [
     name: `Flyer Invitation eCard `,
     description:
       "Join us on a beautifully organized platform designed to create and manage your wedding invitations, RSVPs, and event details, ensuring an unforgettable celebration of love.",
-    tags: [
-      {
-        name: "wedding",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "weddingday",
-        color: "green-text-gradient",
-      },
-      {
-        name: "justengaged",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "weddinginvitation",
-        color: "white-text-gradient",
-      },
-      {
-        name: "weddingcelebration",
-        color: "yellow-text-gradient",
-      },
-    ],
+    tags: websiteTagsBride,
     image: WeddingTemplateHBride,
     logoImage: Instagram,
     source_code_link: "https://www.instagram.com/p/C_DdxsxBylc/",
@@ -315,29 +302,7 @@ const weddingTemplateBride = [
     name: "Video Invitation Desktop",
     description:
       "Join us on a beautifully organized platform designed to create and manage your wedding invitations, RSVPs, and event details, ensuring an unforgettable celebration of love.",
-    tags: [
-      {
-        name: "wedding",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "weddingday",
-        color: "green-text-gradient",
-      },
-      {
-        name: "justengaged",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "weddinginvitation",
-        color: "white-text-gradient",
-      },
-      {
-        name: "weddingcelebration",
-        color: "yellow-text-gradient",
-      },
-
-    ],
+    tags: websiteTagsBride,
     image: weddingVideoBride1,
     logoImage: youtube,
     source_code_link: "https://youtu.be/ZoUuiecZMpE",
@@ -347,28 +312,7 @@ const weddingTemplateBride = [
     name: `Video Invitation Mobile`,
     description:
       "Join us on a beautifully organized platform designed to create and manage your wedding invitations, RSVPs, and event details, ensuring an unforgettable celebration of love.",
-    tags: [
-      {
-        name: "wedding",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "weddingday",
-        color: "green-text-gradient",
-      },
-      {
-        name: "justengaged",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "weddinginvitation",
-        color: "white-text-gradient",
-      },
-      {
-        name: "weddingcelebration",
-        color: "yellow-text-gradient",
-      },
-    ],
+    tags: websiteTagsBride,
     image: WeddingTemplateHBride,
     logoImage: Instagram,
     source_code_link: "https://www.instagram.com/p/C_DdxsxBylc/",

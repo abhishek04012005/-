@@ -1,14 +1,9 @@
 import React, { useState } from "react";
 import Tilt from "react-tilt";
-// import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { weddingTemplateBride, weddingTemplateGroom } from "../constants/all_service";
-import { fadeIn, textVariant } from "../utils/motion";
 import "../App.css"
-import YoutubeEmbed from "../components/YoutubeEmbed";
 
 
 const ProjectCard = ({
@@ -71,7 +66,7 @@ const ProjectCard = ({
   );
 };
 
-const WeddingWebsite = () => {
+const WeddingInvitationBride = () => {
 
   return (
 
@@ -104,37 +99,9 @@ const WeddingWebsite = () => {
         ))}
       </div>
 
-
-      <h1 className={`${styles.heroSubText} mt-5`}>Wedding Invitation For Groom</h1>
-
-
-      <div className='mt-5 flex flex-wrap gap-7'>
-        {weddingTemplateGroom.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
-      </div>
-
-
-
-
-
-      <div className="youtubeEm">
-        <h1>Template Video</h1>
-        <div className="youtubeVideo">
-          <div className="ytube">
-            <YoutubeEmbed embedId="ZoUuiecZMpE" />
-          </div>
-          <div className="ytube">
-            <YoutubeEmbed embedId="RqLDaXAoCQo" />
-          </div>
-
-        </div>
-      </div>
-
-
     </>
   );
 };
 
-export default SectionWrapper(WeddingWebsite, "");
+export default SectionWrapper(WeddingInvitationBride, "");
 

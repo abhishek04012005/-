@@ -89,7 +89,7 @@ const WeddingWebsite = () => {
         </p>
       </div>
 
-      <h1 className={`${styles.heroSubText} mt-5`}>Why should I have a separate website for the Groom and Bride?</h1>
+      <h1 className={`${styles.sectionHeader} mt-5`}>Why should I have a separate website for the Groom and Bride?</h1>
 
       <ul>
 

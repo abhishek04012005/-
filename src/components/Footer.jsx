@@ -39,12 +39,12 @@ const Footer = () => {
                     <li > <Link to="/-/wedding-website">
                         Wedding Website
                     </Link> </li>
-                    <li ><Link to="/-/birthday-website">
+                    {/* <li ><Link to="/-/birthday-website">
                         Birthday Website
                     </Link> </li>
                     <li ><Link to="/-/birthday-invitation">
                         Birthday Invitation
-                    </Link> </li>
+                    </Link> </li> */}
                     <li ><Link to="/-/wedding-invitation">
                         Wedding Invitation
                     </Link></li>

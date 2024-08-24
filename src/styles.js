@@ -13,8 +13,11 @@ const styles = {
   sectionSubText:
     "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
 
+    sectionHeader:
+    "sm:text-[26px] font-medium text-[18px] text-white tracking-wider",
+
     sectionHeaderItem:
-    "sm:text-[24px] text-[18px] text-white uppercase tracking-wider",
+    "sm:text-[24px] font-medium text-[18px] text-white tracking-wider",
 };
 
 export { styles };
