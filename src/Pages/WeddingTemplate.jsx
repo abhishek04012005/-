@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Tilt from "react-tilt";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github } from "../assets";
@@ -21,7 +21,7 @@ const ProjectCard = ({
   logoImage
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+   
       <Tilt
         options={{
           max: 45,
@@ -67,7 +67,7 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </motion.div>
+   
   );
 };
 
@@ -76,62 +76,62 @@ const WeddingWebsite = () => {
   return (
 
     <>
-    
-       
-
-        <motion.div variants={textVariant()}>
-          <h2 className={`${styles.sectionHeadText}`}>Wedding Invitation Designs</h2>
-        </motion.div>
-
-        <div className='w-full flex'>
-          <motion.p
-            variants={fadeIn("", "", 0.1, 1)}
-            className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-          >
-            Our wedding invitations showcase our expertise in creating stunning, personalized designs for your special day. Each card is thoughtfully crafted with love and care, featuring unique themes, elegant layouts. Explore our collection to see how we bring your love story to life, ensuring every detail is perfect for your big day.
 
 
-          </motion.p>
-        </div>
 
-        <motion.div variants={textVariant()}>
-          <h1 className={`${styles.heroSubText} mt-5`}>Wedding Invitation For Bride</h1>
-        </motion.div>
+  
+        <h2 className={`${styles.sectionHeadText}`}>Wedding Invitation Designs</h2>
+   
 
-        <div className='mt-5 flex flex-wrap gap-7'>
-          {weddingTemplateBride.map((project, index) => (
-            <ProjectCard key={`project-${index}`} index={index} {...project} />
-          ))}
-        </div>
+      <div className='w-full flex'>
+        <p
 
-        <motion.div variants={textVariant()}>
-          <h1 className={`${styles.heroSubText} mt-5`}>Wedding Invitation For Groom</h1>
-        </motion.div>
-
-        <div className='mt-5 flex flex-wrap gap-7'>
-          {weddingTemplateGroom.map((project, index) => (
-            <ProjectCard key={`project-${index}`} index={index} {...project} />
-          ))}
-        </div>
+          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        >
+          Our wedding invitations showcase our expertise in creating stunning, personalized designs for your special day. Each card is thoughtfully crafted with love and care, featuring unique themes, elegant layouts. Explore our collection to see how we bring your love story to life, ensuring every detail is perfect for your big day.
 
 
-       
+        </p>
+      </div>
 
 
-        <div className="youtubeEm">
-          <h1>Template Video</h1>
-          <div className="youtubeVideo">
+      <h1 className={`${styles.heroSubText} mt-5`}>Wedding Invitation For Bride</h1>
+
+
+      <div className='mt-5 flex flex-wrap gap-7'>
+        {weddingTemplateBride.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
+      </div>
+
+
+      <h1 className={`${styles.heroSubText} mt-5`}>Wedding Invitation For Groom</h1>
+
+
+      <div className='mt-5 flex flex-wrap gap-7'>
+        {weddingTemplateGroom.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
+      </div>
+
+
+
+
+
+      <div className="youtubeEm">
+        <h1>Template Video</h1>
+        <div className="youtubeVideo">
           <div className="ytube">
-              <YoutubeEmbed embedId="ZoUuiecZMpE" />
-            </div>
-            <div className="ytube">
-              <YoutubeEmbed embedId="RqLDaXAoCQo" />
-            </div>
-            
+            <YoutubeEmbed embedId="ZoUuiecZMpE" />
           </div>
-        </div>
+          <div className="ytube">
+            <YoutubeEmbed embedId="RqLDaXAoCQo" />
+          </div>
 
-     
+        </div>
+      </div>
+
+
     </>
   );
 };
