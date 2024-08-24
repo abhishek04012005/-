@@ -55,7 +55,7 @@ const router = createBrowserRouter(
 const App = () => {
   return (
     <div className='relative z-0 bg-primary'>
-      <RouterProvider basename="/-" router={router} />
+      <RouterProvider router={router} />
     </div>
   );
 }
