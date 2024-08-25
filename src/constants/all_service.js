@@ -258,7 +258,7 @@ const birthdayTemplate = [
 
 const weddingTemplateGroom = [
   {
-    name: `Wedding Invitation Video`,
+    name:  `Flyer Invitation eCard `,
     description:
       "Join us on a beautifully organized platform designed to create and manage your wedding invitations, RSVPs, and event details, ensuring an unforgettable celebration of love.",
     tags: websiteTagsGroom,
@@ -267,7 +267,7 @@ const weddingTemplateGroom = [
     source_code_link: "https://www.instagram.com/p/C_DjjKUhoUA/",
   },
   {
-    name: "Wedding Invitation eCard",
+    name: "Video Invitation Desktop",
     description:
       "Join us on a beautifully organized platform designed to create and manage your wedding invitations, RSVPs, and event details, ensuring an unforgettable celebration of love.",
     tags: websiteTagsGroom,
@@ -276,13 +276,13 @@ const weddingTemplateGroom = [
     source_code_link: "https://youtu.be/RqLDaXAoCQo",
   },
   {
-    name: "Wedding Invitation eCard",
+    name: `Video Invitation Mobile`,
     description:
       "Join us on a beautifully organized platform designed to create and manage your wedding invitations, RSVPs, and event details, ensuring an unforgettable celebration of love.",
     tags: websiteTagsGroom,
     image: WebsiteTemplate1,
     logoImage: Instagram,
-    source_code_link: "https://www.instagram.com/p/C_DjjKUhoUA/",
+    source_code_link: "https://www.instagram.com/reel/C_F6hYZBGQG/",
   },
 
 
@@ -315,7 +315,7 @@ const weddingTemplateBride = [
     tags: websiteTagsBride,
     image: WeddingTemplateHBride,
     logoImage: Instagram,
-    source_code_link: "https://www.instagram.com/p/C_DdxsxBylc/",
+    source_code_link: "https://www.instagram.com/reel/C_GWjmgBg0R/",
   },
 
 ];
