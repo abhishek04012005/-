@@ -264,7 +264,7 @@ const weddingTemplateGroom = [
     tags: websiteTagsGroom,
     image: WebsiteTemplate1,
     logoImage: Instagram,
-    source_code_link: "/",
+    source_code_link: "https://www.instagram.com/p/C_DjjKUhoUA/",
   },
   {
     name: "Wedding Invitation eCard",
@@ -282,7 +282,7 @@ const weddingTemplateGroom = [
     tags: websiteTagsGroom,
     image: WebsiteTemplate1,
     logoImage: Instagram,
-    source_code_link: "/",
+    source_code_link: "https://www.instagram.com/p/C_DjjKUhoUA/",
   },
 
 
